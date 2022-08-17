@@ -1,0 +1,69 @@
+// Vitest Snapshot v1
+
+exports[`tests datePicker > should match the snapshot 1`] = `
+{
+  "description": "",
+  "displayName": "DatePicker",
+  "events": [
+    {
+      "name": "update:date",
+      "type": {
+        "names": [
+          "undefined",
+        ],
+      },
+    },
+  ],
+  "exportName": "default",
+  "expose": undefined,
+  "methods": undefined,
+  "props": [
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "''",
+      },
+      "name": "date",
+      "tags": {},
+      "type": {
+        "name": "any",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "''",
+      },
+      "name": "format",
+      "tags": {},
+      "type": {
+        "name": "any",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "''",
+      },
+      "name": "color",
+      "tags": {},
+      "type": {
+        "name": "any",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "false",
+      },
+      "name": "disabled",
+      "tags": {},
+      "type": {
+        "name": "any",
+      },
+    },
+  ],
+  "slots": undefined,
+  "tags": {},
+}
+`;

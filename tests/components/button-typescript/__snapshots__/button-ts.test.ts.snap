@@ -1,0 +1,109 @@
+// Vitest Snapshot v1
+
+exports[`tests button > should match the snapshot 1`] = `
+{
+  "description": "This is an example of creating a reusable button component and using it with external data.",
+  "displayName": "ClassButton",
+  "events": [
+    {
+      "description": "Success event when we click",
+      "name": "success",
+      "type": {
+        "names": [
+          "undefined",
+        ],
+      },
+    },
+  ],
+  "exportName": "default",
+  "expose": undefined,
+  "methods": [
+    {
+      "description": "method testing",
+      "name": "onClick",
+      "params": [
+        {
+          "name": "a",
+          "type": {
+            "name": "string",
+          },
+        },
+      ],
+      "tags": {
+        "access": [
+          {
+            "description": "public",
+            "title": "access",
+          },
+        ],
+      },
+    },
+  ],
+  "props": [
+    {
+      "description": "An example of a property typed through the decorators arguments",
+      "name": "propNoType",
+      "tags": {},
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "description": "An example of a property typed through the annotation",
+      "name": "propA",
+      "tags": {},
+      "type": {
+        "name": "number",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "'default value'",
+      },
+      "description": "A prop with a default value",
+      "name": "propB",
+      "tags": {},
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "description": "A prop with a hybrid type",
+      "name": "propC",
+      "tags": {},
+      "type": {
+        "elements": [
+          {
+            "name": "string",
+          },
+          {
+            "name": "boolean",
+          },
+        ],
+        "name": "union",
+      },
+    },
+  ],
+  "slots": [
+    {
+      "description": "Use this slot default",
+      "name": "default",
+    },
+  ],
+  "tags": {
+    "author": [
+      {
+        "description": "[Rafael](https://github.com/rafaesc92)",
+        "title": "author",
+      },
+    ],
+    "version": [
+      {
+        "description": "1.0.5",
+        "title": "version",
+      },
+    ],
+  },
+}
+`;

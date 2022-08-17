@@ -1,0 +1,58 @@
+// Vitest Snapshot v1
+
+exports[`tests InputTextDoc > should match the snapshot 1`] = `
+{
+  "description": "Description InputTextDocumented",
+  "displayName": "InputTextDocumented",
+  "events": undefined,
+  "exportName": "default",
+  "expose": undefined,
+  "methods": undefined,
+  "props": [
+    {
+      "name": "question",
+      "type": {
+        "name": "undefined",
+      },
+    },
+    {
+      "mixin": {
+        "name": "multiNamed",
+        "path": "../../mixins/multiNamed.js",
+      },
+      "name": "importedProp",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "mixin": {
+        "name": "otherNamed",
+        "path": "../../mixins/otherNamed.js",
+      },
+      "name": "otherMixinProp",
+      "type": {
+        "name": "number",
+      },
+    },
+    {
+      "mixin": {
+        "name": "deep",
+        "path": "../../mixins/another/deep.js",
+      },
+      "name": "deep",
+      "type": {
+        "name": "boolean",
+      },
+    },
+    {
+      "name": "placeholder",
+      "type": {
+        "name": "string",
+      },
+    },
+  ],
+  "slots": undefined,
+  "tags": {},
+}
+`;

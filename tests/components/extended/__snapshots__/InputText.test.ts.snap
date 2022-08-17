@@ -1,0 +1,28 @@
+// Vitest Snapshot v1
+
+exports[`tests InputText > should match the snapshot 1`] = `
+{
+  "description": "Description InputText",
+  "displayName": "InputText",
+  "events": undefined,
+  "exportName": "default",
+  "expose": undefined,
+  "methods": undefined,
+  "props": [
+    {
+      "name": "question",
+      "type": {
+        "name": "undefined",
+      },
+    },
+    {
+      "name": "placeholder",
+      "type": {
+        "name": "undefined",
+      },
+    },
+  ],
+  "slots": undefined,
+  "tags": {},
+}
+`;

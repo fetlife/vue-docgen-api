@@ -1,0 +1,319 @@
+// Vitest Snapshot v1
+
+exports[`tests button > should match the snapshot 1`] = `
+{
+  "description": "This is an example of creating a reusable button component and using it with external data.",
+  "displayName": "Best Button",
+  "events": [
+    {
+      "description": "Success event.",
+      "name": "success",
+      "properties": [
+        {
+          "description": "example",
+          "name": "demo",
+          "type": {
+            "names": [
+              "object",
+            ],
+          },
+        },
+        {
+          "description": "test called",
+          "name": "called",
+          "type": {
+            "names": [
+              "number",
+            ],
+          },
+        },
+        {
+          "description": "Indicates whether the snowball is tightly packed.",
+          "name": "isPacked",
+          "type": {
+            "names": [
+              "boolean",
+            ],
+          },
+        },
+      ],
+      "type": {
+        "names": [
+          "undefined",
+        ],
+      },
+    },
+  ],
+  "exportName": "default",
+  "expose": undefined,
+  "methods": undefined,
+  "props": [
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "'example model'",
+      },
+      "description": "Model example2",
+      "name": "v-model",
+      "tags": {
+        "model": [
+          {
+            "description": true,
+            "title": "model",
+          },
+        ],
+      },
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "description": "Sm breakpoint and above",
+      "name": "spanSm",
+      "type": {
+        "name": "string|number",
+      },
+    },
+    {
+      "description": "Md breakpoint and above",
+      "name": "spanMd",
+      "type": {
+        "name": "string|number",
+      },
+    },
+    {
+      "description": "Number of columns (1-12) the column should span.",
+      "name": "span",
+      "type": {
+        "name": "string|number",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "'normal'",
+      },
+      "description": "The size of the button",
+      "mixin": {
+        "name": "colorMixin",
+        "path": "colorMixin.js",
+      },
+      "name": "size",
+      "tags": {},
+      "type": {
+        "name": "string",
+      },
+      "values": [
+        "small",
+        "medium",
+        "large",
+      ],
+    },
+    {
+      "mixin": {
+        "name": "multiMixin",
+        "path": "../../mixins/multiMixin.js",
+      },
+      "name": "shouldBe",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "name": "shape",
+      "tags": {
+        "ignore": [
+          {
+            "description": true,
+            "title": "ignore",
+          },
+        ],
+      },
+      "type": {
+        "func": true,
+        "name": "PropTypes.shape({
+  color: PropTypes.string,
+  fontSize: PropTypes.number
+})",
+      },
+    },
+    {
+      "description": "Another mixin",
+      "mixin": {
+        "name": "genericMixin",
+        "path": "genericMixin.js",
+      },
+      "name": "secret",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "'blue'",
+      },
+      "description": "Example prop",
+      "mixin": {
+        "name": "another",
+        "path": "../../mixins/another/index.js",
+      },
+      "name": "propsAnother",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "{ message: 'hello' }",
+      },
+      "description": "Object or array defaults must be returned from
+a factory function",
+      "name": "propE",
+      "type": {
+        "name": "object",
+      },
+    },
+    {
+      "name": "prop1",
+      "tags": {
+        "ignore": [
+          {
+            "description": true,
+            "title": "ignore",
+          },
+        ],
+      },
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "description": "Prop from first mixin",
+      "mixin": {
+        "name": "namedMixin",
+        "path": "namedMixin.js",
+      },
+      "name": "p1",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": true,
+        "value": "() => () => null",
+      },
+      "description": "Add custom click actions.",
+      "name": "onCustomClick",
+      "tags": {
+        "ignore": [
+          {
+            "description": true,
+            "title": "ignore",
+          },
+        ],
+      },
+      "type": {
+        "name": "func",
+      },
+    },
+    {
+      "description": "Prop from second mixin",
+      "mixin": {
+        "name": "namedMixin",
+        "path": "namedMixin.js",
+      },
+      "name": "hello2",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": true,
+        "value": "() => {
+  return 'foo'
+}",
+      },
+      "description": "Function default",
+      "name": "funcDefault",
+      "type": {
+        "name": "func",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "16",
+      },
+      "description": "The example3 props",
+      "name": "example3",
+      "type": {
+        "name": "number",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "false",
+      },
+      "description": "The example props",
+      "name": "example",
+      "type": {
+        "name": "boolean",
+      },
+    },
+    {
+      "name": "customTag",
+      "tags": {
+        "asdf": [
+          {
+            "description": "qwerty",
+            "title": "asdf",
+          },
+        ],
+      },
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "defaultValue": {
+        "func": false,
+        "value": "'#333'",
+      },
+      "description": "The color for the button example",
+      "mixin": {
+        "name": "colorMixin",
+        "path": "colorMixin.js",
+      },
+      "name": "color",
+      "type": {
+        "name": "string",
+      },
+    },
+  ],
+  "slots": [
+    {
+      "description": "Use this slot default",
+      "name": "default",
+    },
+  ],
+  "tags": {
+    "author": [
+      {
+        "description": "[Rafael](https://github.com/rafaesc92)",
+        "title": "author",
+      },
+    ],
+    "version": [
+      {
+        "description": "1.0.5",
+        "title": "version",
+      },
+    ],
+  },
+}
+`;

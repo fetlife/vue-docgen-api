@@ -1,0 +1,84 @@
+// Vitest Snapshot v1
+
+exports[`tests button > should match the snapshot 1`] = `
+{
+  "description": "This is an example of creating a reusable button component and using it with external data.",
+  "displayName": "ClassComponent",
+  "events": [
+    {
+      "name": "success",
+      "type": {
+        "names": [
+          "undefined",
+        ],
+      },
+    },
+    {
+      "name": "fail",
+      "type": undefined,
+    },
+  ],
+  "exportName": "default",
+  "expose": undefined,
+  "methods": [
+    {
+      "name": "onClick",
+      "params": [
+        {
+          "name": "a",
+          "type": {
+            "name": "string",
+          },
+        },
+      ],
+      "tags": {
+        "access": [
+          {
+            "description": "public",
+            "title": "access",
+          },
+        ],
+      },
+    },
+  ],
+  "props": [
+    {
+      "description": "color of the button",
+      "mixin": {
+        "name": "mixin",
+        "path": "mixin.ts",
+      },
+      "name": "color",
+      "type": {
+        "name": "string",
+      },
+    },
+    {
+      "name": "bundleHash",
+      "type": {
+        "name": "number",
+      },
+    },
+  ],
+  "slots": [
+    {
+      "description": "Use this slot default",
+      "name": "default",
+    },
+  ],
+  "tags": {
+    "author": [
+      {
+        "description": "[Rafael](https://github.com/rafaesc92)",
+        "title": "author",
+      },
+    ],
+    "version": [
+      {
+        "description": "1.0.5",
+        "title": "version",
+      },
+    ],
+  },
+}
+`;
